@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment & local secrets
+.env
+.env.local
+
+# Build output
+frontend/dist/
+
+# Persistent local cache (Chroma will rebuild or persist via volume)
+backend/__pycache__/
